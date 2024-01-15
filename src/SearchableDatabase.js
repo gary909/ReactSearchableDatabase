@@ -48,6 +48,10 @@ function SearchableDatabase() {
 
   return (
     <div className="terminal-window">
+      <div>
+      <img src="/searchImage.png" alt="Search" style={{ width: '50px', height: '50px', marginBottom: '30px' }} />
+      {/* Rest of your component */}
+    </div>
       <div className="form-check">
         <input
           className="form-check-input"
